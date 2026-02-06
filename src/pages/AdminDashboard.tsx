@@ -21,13 +21,14 @@ import type { Database } from "@/integrations/supabase/types";
 type Appointment = Database["public"]["Tables"]["appointments"]["Row"];
 
 const serviceLabels: Record<string, string> = {
-  teeth_cleaning: "Teeth Cleaning",
-  cavities_treatment: "Cavities Treatment",
-  whitening: "Whitening",
-  dental_implants: "Dental Implants",
-  orthodontics: "Orthodontics",
-  smile_design: "Smile Design",
+  teeth_cleaning: "პაროდონტის წმენდა",
+  cavities_treatment: "კარიესის მკურნალობა",
+  whitening: "თეთრება",
+  dental_implants: "იმპლანტები",
+  orthodontics: "ორთოდონტია",
+  smile_design: "იღბლის დიზაინი",
 };
+
 
 const AdminDashboard = () => {
   const [appointments, setAppointments] = useState<Appointment[]>([]);
