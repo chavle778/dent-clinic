@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['"Noto Sans Georgian"', 'sans-serif'],
+        display: ['"Noto Sans Georgian"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

@@ -49,7 +49,7 @@ const AboutSection = () => {
               ჩვენი თანამედროვე სტომატოლოგიური კლინიკა ბათუმში აერთიანებს უახლეს ტექნოლოგიას თბილ, სტუმართმოყვარე გარემოში. გვჯერა, რომ მაღალი ხარისხის სტომატოლოგიური მომსახურება უნდა იყოს ხელმისაწვდომი, კომფორტული და მორგებული თითოეული პაციენტის საჭიროებებზე.
             </p>
             <p className="text-muted-foreground lg:text-xl text-sm sm:text-base leading-relaxed mb-6 sm:mb-8">
-              რუტინული შემოწმებებიდან რთულ პროცედურებამდე, ჩვენი გამოცდილი სპეციალისტების გუნდი Dedიკირებულია, რათა დაგეხმაროთ ჯანმრთელი და ლამაზი ღიმილის მიღებაში და შენარჩუნებაში.
+              რუტინული შემოწმებებიდან რთულ პროცედურებამდე, ჩვენი გამოცდილი სპეციალისტების გუნდი მზადაა დაგეხმაროთ ჯანმრთელი და ლამაზი ღიმილის მიღებასა და შენარჩუნებაში.
             </p>
             <div className="grid grid-cols-3 sm:grid-cols-3 gap-4 sm:gap-6">
               <div className="text-center p-3 sm:p-4 bg-card rounded-xl shadow-card">
@@ -83,10 +83,10 @@ const AboutSection = () => {
                 <div className="w-12 h-12 sm:w-14 sm:h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-3 sm:mb-4">
                   <feature.icon className="w-6 h-6 sm:w-7 sm:h-7 text-primary" />
                 </div>
-                <h3 className="font-semibold text-foreground text-sm sm:text-lg mb-1 sm:mb-2">
+                <h3 className="font-semibold font-display text-foreground text-sm sm:text-lg mb-1 sm:mb-2">
                   {feature.title}
                 </h3>
-                <p className="text-muted-foreground text-xs sm:text-sm">
+                <p className="text-muted-foreground font-display text-xs sm:text-sm">
                   {feature.description}
                 </p>
               </motion.div>
